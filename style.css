@@ -124,13 +124,15 @@ a.navigation-menu-link:hover{
 
 .dark-blue-background{
   background-color: #242a56;
-  width: 330px;
-  height: 330px;
+  width: 350px;
+  height: 350px;
   margin-left: 90px;
+  border-radius: 25px;
+  text-align: center;
 }
 
 .main-container-features{
-  width: 590px;
+  width: 591px;
 }
 
 .feature-text{
@@ -160,8 +162,38 @@ a.navigation-menu-link:hover{
   text-decoration: none;
 }
 
+
 .credit-card-image{
-  width: 70%;
-  margin-left: 40px;
+  width: 220px;
+  margin-right: 10px;
+  margin-top: 13px;
+}
+
+.center-in-box{
+  width: 80%;
+  margin: auto;
+}
+
+.credit-card-description{
+  display: flex;
+  justify-content: space-around;
+}
+
+.credit-card-example{
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+.description-paragraph{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.vertical-line{
   margin-top: 20px;
+  height: 60px;
+  width: 1px;
+  background-color: #ffffff;
 }
