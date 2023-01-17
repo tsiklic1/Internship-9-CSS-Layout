@@ -90,3 +90,70 @@ a.navigation-menu-link:hover{
   text-decoration: underline;
   color: black;
 }
+
+.main-container{
+  display: flex;
+  align-items: center;
+}
+
+.main-container-feature{
+  display:flex;
+  align-items:center;
+  color: #0c71b4;
+}
+
+.checkmark{
+  width: 30px;
+  margin-right: 14px;
+}
+
+.subtitle{
+  font-size: 26px;
+  font-weight: bold;
+  color: #0c71b4;
+  margin-bottom: 0px;
+}
+
+.title{
+  font-size:40px;
+  font-weight: bold;
+  color: #242a56;
+  margin-top: 5px;
+}
+
+
+.dark-blue-background{
+  background-color: #242a56;
+  width: 330px;
+  height: 330px;
+  margin-left: 90px;
+}
+
+.main-container-features{
+  width: 590px;
+}
+
+.feature-text{
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.bold-blue{
+  font-weight: bold;
+  color: #008FD0;
+}
+
+.green-button{
+  background-color: #5e9b00;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.green-button-text{
+  color: #ffffff;
+  text-decoration: none;
+}
