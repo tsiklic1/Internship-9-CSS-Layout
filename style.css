@@ -384,10 +384,23 @@ a.navigation-menu-link:hover {
 
 .image-text-box{
   width: 250px;
-  margin-right: 25px
 }
 
 .zdenka-image{
   width: 250px;
   border-radius: 15px;
+}
+
+.text-under-zdenka-image{
+  margin-top: 10px;
+  padding-bottom: 0px;
+  color:#242a56;
+  font-weight:bolder;
+}
+
+.dark-blue-no-decoration{
+  color:#242a56;
+  text-decoration: none;
+  margin-right: 25px;
+  margin-bottom: 20px;
 }
