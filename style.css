@@ -3,11 +3,11 @@
   font-family: helvetica;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.navigation-bar{
+.navigation-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,26 +18,26 @@ body{
   /* padding-bottom: 10px   */
 }
 
-.navigation-menu{
+.navigation-menu {
   display: flex;
 }
 
-.navigation-menu-choice{
+.navigation-menu-choice {
   display: flex;
   align-items: center;
   margin-right: 3px;
   font-size: 16px;
   font-weight: bold;
   padding-left: 9px;
-  padding-right: 9px
+  padding-right: 9px;
 }
 
-.chevron-down{
+.chevron-down {
   width: 25px;
   margin-left: 6px;
 }
 
-.navigation-menu-link{
+.navigation-menu-link {
   color: #242a56;
   text-decoration: none;
   padding-left: 4px;
@@ -45,84 +45,83 @@ body{
   padding-top: 6px;
 }
 
-a.navigation-menu-link:hover{
-  background-color:  #e5f4fb;
+a.navigation-menu-link:hover {
+  background-color: #e5f4fb;
   padding-left: 4px;
 }
 
-.header{
+.header {
   background-color: #e5f4fb;
-  height: 800px;
+  height: 610px;
   margin-top: 4px;
   padding-left: 180px;
   padding-right: 180px;
 }
 
-.home-navigation{
+.home-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.home-navigation-side{
-  display:flex;
+.home-navigation-side {
+  display: flex;
   align-items: center;
 }
 
-.home-navigation-side-paragraph{
+.home-navigation-side-paragraph {
   font-size: 14px;
   margin-right: 8px;
   text-decoration: none;
 }
 
-.person-image{
+.person-image {
   width: 20px;
 }
 
-.home-word{
+.home-word {
   font-weight: bold;
   color: #242a56;
 }
 
-.sign-in-link{
-  display:flex;
+.sign-in-link {
+  display: flex;
   align-items: center;
   text-decoration: underline;
   color: black;
 }
 
-.main-container{
+.main-container {
   display: flex;
   align-items: center;
 }
 
-.main-container-feature{
-  display:flex;
-  align-items:center;
+.main-container-feature {
+  display: flex;
+  align-items: center;
   color: #0c71b4;
 }
 
-.checkmark{
+.checkmark {
   width: 30px;
   margin-right: 14px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 26px;
   font-weight: bold;
   color: #0c71b4;
   margin-bottom: 0px;
 }
 
-.title{
-  font-size:40px;
+.title {
+  font-size: 40px;
   font-weight: bold;
   color: #242a56;
   margin-top: 5px;
 }
 
-
-.dark-blue-background{
+.dark-blue-background {
   background-color: #242a56;
   width: 350px;
   height: 350px;
@@ -131,22 +130,22 @@ a.navigation-menu-link:hover{
   text-align: center;
 }
 
-.main-container-features{
+.main-container-features {
   width: 591px;
 }
 
-.feature-text{
+.feature-text {
   font-weight: normal;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-.bold-blue{
+.bold-blue {
   font-weight: bold;
-  color: #008FD0;
+  color: #008fd0;
 }
 
-.green-button{
+.green-button {
   background-color: #5e9b00;
   display: flex;
   width: 280px;
@@ -154,73 +153,98 @@ a.navigation-menu-link:hover{
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 6px;
-
 }
 
-.green-button-text{
+.green-button-text {
   color: #ffffff;
   text-decoration: none;
 }
 
-
-.credit-card-image{
+.credit-card-image {
   width: 200px;
   margin-right: 10px;
   margin-top: 13px;
 }
 
-.center-in-box{
+.center-in-box {
   width: 80%;
   margin: auto;
 }
 
-.credit-card-description{
+.credit-card-description {
   display: flex;
   justify-content: space-around;
 }
 
-.credit-card-example{
+.credit-card-example {
   color: #ffffff;
   font-size: 16px;
   margin-top: 0px;
   font-weight: normal;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
-.description-paragraph{
+.description-paragraph {
   color: #ffffff;
   font-size: 12px;
   margin-top: 5px;
 }
 
-.vertical-line{
+.vertical-line {
   margin-top: 20px;
   height: 60px;
   width: 1px;
   background-color: #ffffff;
 }
 
-.rectangles-container{
+.rectangles-container {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.white-rectangle{
+.white-rectangle {
   background-color: #ffffff;
   width: 370px;
   height: 125px;
   border-radius: 10px;
   box-shadow: 0px 2px 3px 0px #b0b0b0;
-  display: flex; 
+  display: flex;
   align-items: center;
   padding-left: 30px;
 }
 
-.phone-image{
+.phone-image {
   width: 35px;
 }
 
-.info-container{
- padding-left: 30px 
+.contactless-image {
+  width: 45px;
+}
+
+.alert-image {
+  width: 45px;
+}
+
+.info-container {
+  padding-left: 30px;
+  margin-right: 30px;
+}
+
+.unimportant-text{
+  color: #111111;
+  font-size: 14px;
+}
+
+.rectangle-title{
+  color: #242a56;
+  font-size: 26px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.reviews-box{
+  height: 400px;
+  background-color: #008fd0;
+  text-align: center;
 }
