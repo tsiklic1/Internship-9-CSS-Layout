@@ -244,8 +244,8 @@ a.navigation-menu-link:hover {
 }
 
 .reviews-box{
-  margin-top: 500px;
-  margin-bottom: 500px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   height: 440px;
   background-color: #008fd0;
   text-align: center;
@@ -353,7 +353,7 @@ a.navigation-menu-link:hover {
   height: 80px;
   background-color: #efefef;
   display: flex;
-  padding-left: 325px;
+  padding-left: 335px;
   align-items: center;
 }
 
@@ -370,4 +370,24 @@ a.navigation-menu-link:hover {
   color: #29abe1;
   border-bottom: 5px solid #29abe1;
   padding-bottom: 25px;
+}
+
+.images-box{
+  width: 900px;
+  margin-left: 350px;
+  margin-right: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.image-text-box{
+  width: 250px;
+  margin-right: 25px
+}
+
+.zdenka-image{
+  width: 250px;
+  border-radius: 15px;
 }
