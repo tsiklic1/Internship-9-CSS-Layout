@@ -248,3 +248,54 @@ a.navigation-menu-link:hover {
   background-color: #008fd0;
   text-align: center;
 }
+
+.comment-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-box{
+  width: 700px;
+  height: 110px;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.side-chevron-container{
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-chevron-image{
+  width: 20px;
+}
+
+.quotation-marks-image{
+  width: 100px;
+}
+
+.comment-title-and-content{
+  width: 100%;
+}
+
+.comment-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.time{
+  display: flex;
+  align-items: center;
+}
+
