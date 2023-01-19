@@ -164,7 +164,7 @@ a.navigation-menu-link:hover{
 
 
 .credit-card-image{
-  width: 220px;
+  width: 200px;
   margin-right: 10px;
   margin-top: 13px;
 }
@@ -184,11 +184,13 @@ a.navigation-menu-link:hover{
   font-size: 16px;
   margin-top: 0px;
   font-weight: normal;
+  margin-bottom: 10px
 }
 
 .description-paragraph{
   color: #ffffff;
   font-size: 12px;
+  margin-top: 5px;
 }
 
 .vertical-line{
@@ -196,4 +198,29 @@ a.navigation-menu-link:hover{
   height: 60px;
   width: 1px;
   background-color: #ffffff;
+}
+
+.rectangles-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.white-rectangle{
+  background-color: #ffffff;
+  width: 370px;
+  height: 125px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 0px #b0b0b0;
+  display: flex; 
+  align-items: center;
+  padding-left: 30px;
+}
+
+.phone-image{
+  width: 35px;
+}
+
+.info-container{
+ padding-left: 30px 
 }
